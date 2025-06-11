@@ -1,0 +1,10 @@
+[user]
+	name = ngocshintrannn
+	email = ngoc.shintrann@gmail.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	up = rebase
+	ci = commit
+	pu = push
