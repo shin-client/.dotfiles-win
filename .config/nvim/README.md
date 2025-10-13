@@ -1,6 +1,6 @@
 # **Neovim Keybinds Documentation**
 
-This document provides a simple and organized overview of all the custom keybinds defined in my Neovim configuration. The `\<leader\>` key is `Space`.
+This document provides a simple and organized overview of all the custom keybinds defined in my Neovim configuration. The `<leader>` key is `Space`.
 
 ## **General Keybinds**
 
@@ -14,8 +14,8 @@ This document provides a simple and organized overview of all the custom keybind
 | n | N | Move to previous search result and keep it centered. |
 | n | \<leader\>nh | **(New)** Clear search highlight. |
 | n | Q | Disable Ex mode (noop). |
-| i | \<C-c\> | Exit insert mode (acts like `Esc`). |
-| n | \<leader\>x | Make current file executable (`chmod \+x`). |
+| i | \<C-c> | Exit insert mode (acts like `Esc`). |
+| n | \<leader\>x | Make current file executable (`chmod +x`). |
 | n | \<leader\>u | Toggle Undotree (visualize undo history). |
 | n | \<leader\>rl | Reload the Neovim config. |
 | n | \<leader\>\<leader\> | Source (execute) the current file. |
@@ -29,6 +29,19 @@ This document provides a simple and organized overview of all the custom keybind
 | x | \<leader\>p | Paste without overwriting the clipboard register. |
 | n, v | \<leader\>d | **(New)** Delete without yanking (sends to blackhole register). |
 | n, v | \<leader\>y | Yank into system clipboard (works over SSH). |
+
+## **Visual & Nomal & Insert Mode Keybinds**
+
+| Mode | Key | Action |
+| :---- | :---- | :---- |
+| n, i, v | \<C-s\> | Save file. |
+| n, i, v | \<C-q\> | Quit vim. |
+
+## **Buffers**
+
+| Mode | Key | Action |
+| :---- | :---- | :---- |
+| n | \<leader>bd | Close current buffer file. |
 
 ## **Quickfix List Keybinds**
 

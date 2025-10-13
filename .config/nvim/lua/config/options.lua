@@ -8,6 +8,7 @@ set.number = true
 -- indentation and tabs
 set.tabstop = 2
 set.shiftwidth = 2
+set.softtabstop = 2
 set.autoindent = true
 set.expandtab = true
 

@@ -1,0 +1,46 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2025-10-13T12:40:52+07:00",
+            "Manifests": 1406
+        },
+        {
+            "Name": "extras",
+            "Source": "~\\scoop\\buckets\\extras",
+            "Updated": "2024-12-28T09:48:28.2051384+07:00",
+            "Manifests": 2106
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2025-10-12T20:44:19.4625001+07:00",
+            "Info": "",
+            "Version": "0.11.4",
+            "Source": "main",
+            "Name": "neovim"
+        },
+        {
+            "Updated": "2024-10-14T20:31:34.351132+07:00",
+            "Info": "",
+            "Version": "23.20.1",
+            "Source": "main",
+            "Name": "oh-my-posh"
+        },
+        {
+            "Updated": "2025-10-12T20:39:58.3033453+07:00",
+            "Info": "",
+            "Version": "14.1.1",
+            "Source": "main",
+            "Name": "ripgrep"
+        },
+        {
+            "Updated": "2025-10-13T13:19:58.6801079+07:00",
+            "Info": "",
+            "Version": "1.28.2",
+            "Source": "main",
+            "Name": "rustup"
+        }
+    ]
+}
