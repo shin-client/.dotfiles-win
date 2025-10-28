@@ -1,7 +1,7 @@
 [user]
 	name = shin-tran
 	email = ngoc.shintrann@gmail.com
-	signingkey = AFEAE133E517C506
+	signingkey = E725EC46FBBA322F
 [alias]
 	st = status
 	co = checkout
@@ -11,5 +11,7 @@
 	pu = push
 [commit]
 	gpgsign = true
+[tag]
+	gpgSign = true
 [gpg]
-	program = gpg
+	program = C:/Program Files (x86)/GnuPG/bin/gpg.exe
