@@ -1,6 +1,7 @@
 [user]
 	name = shin-tran
 	email = ngoc.shintrann@gmail.com
+	signingkey = AFEAE133E517C506
 [alias]
 	st = status
 	co = checkout
@@ -8,3 +9,7 @@
 	up = rebase
 	ci = commit
 	pu = push
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
