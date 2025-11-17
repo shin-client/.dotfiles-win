@@ -1,7 +1,7 @@
 [user]
 	name = shin-tran
 	email = ngoc.shintrann@gmail.com
-	signingkey = E725EC46FBBA322F
+	signingkey = C:\\Users\\Admin\\.ssh\\shintran.pub
 [alias]
 	st = status
 	co = checkout
@@ -14,4 +14,12 @@
 [tag]
 	gpgSign = true
 [gpg]
-	program = C:/Program Files (x86)/GnuPG/bin/gpg.exe
+	format = ssh
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[pull]
+	rebase = true
+[core]
+  excludesfile = C:\\Users\\Admin\\.dotfiles-win\\git\\.gitignore_global
