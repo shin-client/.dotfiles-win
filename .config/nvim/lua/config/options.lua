@@ -1,5 +1,6 @@
 -- OPTIONS
 local set = vim.opt
+vim.opt.modeline = false
 
 --line nums
 set.relativenumber = true
