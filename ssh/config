@@ -1,0 +1,14 @@
+Host fcngoc
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/fcngoc
+
+Host shintran
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/shintran
+    
+Host laptop-arch
+    HostName laptop-ssh.x-clone.com
+    User ngxc
+    ProxyCommand cloudflared access ssh --hostname %h
